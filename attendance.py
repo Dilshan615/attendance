@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Settings
-URL = "url"
+URL = "https://jiatachira.github.io/Attendance-Marking-/"
 STUDENT_ID = "nic"
 
 def start_automation():
@@ -59,4 +59,5 @@ def start_automation():
         driver.quit()
 
 if __name__ == "__main__":
+
     start_automation()
